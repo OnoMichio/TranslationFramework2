@@ -1,72 +1,71 @@
 # TranslationFramework2
-Translation Framework 2 es una aplicación para facilitar la traducción de diferentes juegos.
+Translation Framework 2 is a program used to support translation efforts for games.
 
-## Descarga
-Si no sabes (o no quieres) compilar desde el código fuente, en [este enlace](https://mega.nz/#F!GZNQWSBQ!JA42-HIGTy79O0I7is0FGw) se puede descargar la versión estable compilada.
+## Download
+If you don't (or can't) compile from source, you can download a pre-compiled version [here.](https://mega.nz/#F!GZNQWSBQ!JA42-HIGTy79O0I7is0FGw)
 
-## ¿Cómo funciona?
-Al crear una nueva traducción, la aplicación pide al usuario el juego que quiere traducir y la carpeta en la que está instalado. Una vez hecho esto, la aplicación se encarga de buscar y descomprimir (si es necesario) los ficheros con texto para que el usuario solo se tenga que centrar en la traducción.
+## How to use
+When creating a new translation project file, Translation Framework 2 will prompt you to select the game you wish to modify and the folder at where it is installed. When done, Translation Framework 2 will search and unpack files that are necessary for translation.
+When you are done with modifying files, Translation Framework 2 will rebuild these files for you.
 
-Cuando el usuario termina la traducción, la aplicación reconstruye los ficheros.
-
-## Juegos soportados
+## Supported games
 * [Yakuza 0](http://www.clandlan.net/foros/topic/79978-peticiontraduccion-de-yakuza-0-pc/)
-  - Traducción de textos.
-  - Reemplazo de texturas.
-  - Reemplazo de fuentes.
-  - Parche para usar codificación de 1 byte en lugar de Shift-JIS.
+  - Text modification
+  - Import/Exporting textures
+  - Font modification 
+  - Patch to make the game use 1 byte encoding instead of SHIFT-JIS
 * [Yakuza Kiwami](http://www.clandlan.net/foros/topic/80616-yakuza-kiwami-en-espanol/)
-  - Traducción de textos.
-  - Reemplazo de texturas.
-  - Reemplazo de fuentes.
-  - Parche para usar codificación de 1 byte en lugar de Shift-JIS.
+  - Text modification
+  - Import/Exporting textures
+  - Font modification 
+  - Patch to make the game use 1 byte encoding instead of SHIFT-JIS
 * [Ryū ga Gotoku Ishin! (PS3)](https://discord.gg/6hDTRcR)
-  - Traducción de textos. (Soporte parcial)
+  - Text modification (Partial support)
 * [Shining Resonance Refrain](http://www.clandlan.net/foros/topic/80154-traduccion-shining-resonance-refrain-en-proceso/)
-  - Traducción de textos.
-  - Reemplazo de texturas.
-  - Reemplazo de fuentes.
+  - Text modification
+  - Texture modification
+  - Font modification 
 * [The MISSING: J.J. Macfield and the Island of Memories](http://www.clandlan.net/foros/topic/80152-peticion-the-missing-jj-macfield-and-the-island-of-memories/)
-  - Traducción de textos.
-  - Reemplazo de texturas.
-  - Reemplazo de fuentes.
+  - Text modification
+  - Texture modification
+  - Font modification 
 * ~~[Phoenix Wright: Ace Attorney Trilogy](https://www.youtube.com/watch?v=bk_erh1OcO0)~~
-  - ~~Traducción de textos.~~
-  - ~~Modificación de scripts (no probado)~~
-  - ~~Reemplazo de texturas. (no modifica los .sprite, así que las imágenes se cortan)~~
+  - ~~Text modification~~
+  - ~~Script modification (untested)~~
+  - ~~Texture modification (.sprite files won't be modified when replacing, so textures can cut off)~~
   
-  (NOTA: No funciona correctamente. No usar hasta nuevo aviso.)
+  (NOTE: Not working properly. It is not recommended to modify PW: AAT files yet.)
 * [The Legend of Heroes: Trails in the Sky](http://www.clandlan.net/foros/topic/80576-the-legend-of-heroes-trails-in-the-sky/)
-  - Traducción de textos.
-  - Reemplazo de texturas.
-  - Reemplazo de fuentes.
+  - Text modification
+  - Texture modification
+  - Font modification
 * UnderRail
-  - Traducción de textos.
-  (NOTA: Para que funcione, hay que copiar los ficheros underrail.exe, GalaxyCSharp.dll, sfmlnet-audio-2.dll, sfmlnet-window-2.dll, Microsoft.Xna.Framework.dll y Microsoft.Xna.Framework.Graphics.dll en la carpeta "plugins")
+  - Text modification
+  (NOTE: For UnderRail modification to work properly, copy underrail.exe, GalaxyCSharp.dll, sfmlnet-audio-2.dll, sfmlnet-window-2.dll, Microsoft.Xna.Framework.dll and Microsoft.Xna.Framework.Graphics.dll to the "plugins" folder.)
 * [AI - The Somnium Files](https://tradusquare.es/ficha.php?ai-somnium-files)
-  - Traducción de textos.
-  - Reemplazo de texturas.
+  - Text modification
+  - Texture modification
 * [Disco Elysium](http://www.clandlan.net/foros/topic/80654-proyecto-disco-elysium/)
-  - Traducción de textos.
-  - Reemplazo de texturas.
+  - Text modification
+  - Texture modification
 * [Hardcore Mecha](http://www.clandlan.net/foros/topic/80621-nueva-traduccion-hardcore-mecha/)
-  - Traducción de textos.
-  - Reemplazo de texturas.
+  - Text modification
+  - Texture modification
 * Love Esquire
-  - Traducción de textos.
-  (NOTA: Para que funcione, hay que modificar previamente los ficheros vntext.sq y Assembly-CSharp.dll)
+  - Text modification
+  (NOTE: For it to work properly, vntext.sq and Assembly-CSharp.dll must be modified)
 * NightCry
-  - Traducción de textos.
-  - Reemplazo de texturas.
-  - Reemplazo de fuentes.
+  - Text modification
+  - Texture modification
+  - Font modification
   
-## Agradecimientos
-* Malaquito y Hazardous de [ClanDLAN](http://clandlan.net/foros/forum/3-traducciones-academia-de-sundabar/) por atreverse a hacer traducciones con mis herramientas xD
-* [Rick Gibbed](https://github.com/gibbed) por su herramienta para extraer los ficheros de Yakuza.
-* [Clarence1996](https://www.deviantart.com/clarence1996), [andonovmarko](https://www.deviantart.com/andonovmarko) y [M-1618](https://www.deviantart.com/m-1618) por sus iconos para los juegos.
-* [flamethrower](https://heroesoflegend.org/forums/viewtopic.php?f=38&t=289) por el algoritmo de compresión Falcom.
-* [Zhenjian Yang](https://github.com/ZhenjianYang) por su estudio de los scripts del The Legend of Heroes: Trails in the Sky
-* [DragonZH](https://forum.zoneofgames.ru/topic/36240-unityex/) por la herramienta UnityEX
-* [0xd4d](https://github.com/0xd4d) por dnlib y dnSpy. Son una maravilla!!!
-* [Tradusquare](https://tradusquare.es/) y toda su gente.
-* Y a toda la gente que se me olvida nombrar.
+## Credits
+* [ClanDLAN](http://clandlan.net/foros/forum/3-traducciones-academia-de-sundabar/) for even thinking of translating games with my tools xD
+* [Rick Gibbed](https://github.com/gibbed) for its' tool to extract .par archives from Yakuza.
+* [Clarence1996](https://www.deviantart.com/clarence1996), [andonovmarko](https://www.deviantart.com/andonovmarko) and [M-1618](https://www.deviantart.com/m-1618)  for game icons used in Translation Framework
+* [flamethrower](https://heroesoflegend.org/forums/viewtopic.php?f=38&t=289) for the Falcom compression method 
+* [Zhenjian Yang](https://github.com/ZhenjianYang) for his research of scripts in 'The Legend of Heroes: Trails in the Sky'
+* [DragonZH](https://forum.zoneofgames.ru/topic/36240-unityex/) for UnityEX
+* [0xd4d](https://github.com/0xd4d) by dnlib and dnSpy. They are amazing!!!
+* [Tradusquare](https://tradusquare.es/) and all of its' people
+* And to all of the other people I forgot to name.
